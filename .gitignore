@@ -11,6 +11,11 @@ node_modules
 dist
 dist-ssr
 *.local
+**/routeTree.gen.ts
+
+# Environment variables
+.env
+.env.*.local
 
 # Editor directories and files
 .vscode/*
