@@ -7,12 +7,12 @@ import pluginQuery from '@tanstack/eslint-plugin-query'
 import pluginRouter from '@tanstack/eslint-plugin-router'
 
 export default tseslint.config(
-  { ignores: ['dist'] },
+  { ignores: ['dist', '**/routeTree.gen.ts'] },
   {
     extends: [js.configs.recommended, ...tseslint.configs.recommended, ...pluginQuery.configs['flat/recommended'], ...pluginRouter.configs['flat/recommended']],
     files: ['**/*.{ts,tsx}'],
     languageOptions: {
-      ecmaVersion: 2020,
+      ecmaVersion: 'latest',
       globals: globals.browser,
     },
     plugins: {
