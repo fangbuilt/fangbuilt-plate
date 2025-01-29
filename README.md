@@ -1,4 +1,4 @@
-# Fangbuilt Boilerplate
+# Fangbuilt Plate
 
 > **[Bun](https://bun.sh/) is required to be installed locally in your device**
 
@@ -17,4 +17,6 @@ This **web front-end boilerplate** provides a minimal setup to get React working
 
 > Please change your default formatter to [Prettier](https://prettier.io/), usually by `ctrl + shift + p: Format Document` in [Visual Studio Code](https://code.visualstudio.com/)
 
-Execute `bun run dev` to generate the `routeTree.gen.ts` file inside the `/src` directory
+> Don't forget to execute `bun run install` after forking or cloning
+
+> Execute `bun run dev` to generate the `routeTree.gen.ts` file inside the `/src` directory
