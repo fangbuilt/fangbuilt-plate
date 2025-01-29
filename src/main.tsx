@@ -31,12 +31,12 @@ if (!rootElement.hasChildNodes()) {
       <QueryClientProvider client={queryClient}>
         <RouterProvider router={router} />
       </QueryClientProvider>
-    </StrictMode>,
+    </StrictMode>
   );
 }
 
 if (!rootElement) {
   throw new Error(
-    "Root element not found. There's no element with the id 'root'.",
+    "Root element not found. There's no element with the id 'root'."
   );
 }

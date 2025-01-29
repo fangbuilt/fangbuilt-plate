@@ -11,7 +11,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   {
     component: RootComponent,
     notFoundComponent: NotFound,
-  },
+  }
 );
 
 function RootComponent() {
