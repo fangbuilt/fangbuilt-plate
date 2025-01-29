@@ -33,7 +33,7 @@ export default tseslint.config(
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
       '@tanstack/query/exhaustive-deps': 'error',
       '@tanstack/router/create-route-property-order': 'error',
-      ...reactCompiler.configs.recommended.rules
+      'react-compiler/react-compiler': 'error',
     },
   }
 )
