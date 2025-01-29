@@ -10,6 +10,7 @@ Recommended IDE extensions:
  
 
 This **web front-end boilerplate** provides a minimal setup to get React working with:
+ - React 19 + React Compiler
  - [Tanstack Router](https://tanstack.com/router/latest)
  - [Tanstack Query](https://tanstack.com/query/latest)
  - [TailwindCSS](https://tailwindcss.com/) v4
