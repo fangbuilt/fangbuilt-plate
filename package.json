@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "postinstall": "bunx husky"
+    "prepare": "husky"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",
