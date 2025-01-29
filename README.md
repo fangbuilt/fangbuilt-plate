@@ -10,7 +10,7 @@ Recommended IDE extensions:
  
 
 This **web front-end boilerplate** provides a minimal setup to get React working with:
- - React 19 + React Compiler
+ - React 19
  - [Tanstack Router](https://tanstack.com/router/latest)
  - [Tanstack Query](https://tanstack.com/query/latest)
  - [TailwindCSS](https://tailwindcss.com/) v4
@@ -21,3 +21,6 @@ This **web front-end boilerplate** provides a minimal setup to get React working
 > Don't forget to execute `bun run install` after forking or cloning
 
 > Execute `bun run dev` to generate the `routeTree.gen.ts` file inside the `/src` directory
+
+# Plans
+- Will use the [React Compiler](https://react.dev/learn/react-compiler) once it supports [SWC](https://swc.rs/docs/benchmarks#es2020-1). Ain't no way in hell I'm using Babel, thank you.
