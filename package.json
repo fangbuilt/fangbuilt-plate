@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "prepare": "husky"
+    "preview": "vite preview"
   },
   "prettier": {
     "printWidth": 120,
@@ -21,7 +20,10 @@
     "arrowParens": "always",
     "jsxSingleQuote": false,
     "bracketSameLine": false,
-    "endOfLine": "lf"
+    "endOfLine": "lf",
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ]
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",
@@ -45,6 +47,8 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "typescript": "~5.7.3",
     "typescript-eslint": "^8.22.0",
     "vite": "^6.0.5"
