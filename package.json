@@ -1,7 +1,7 @@
 {
   "name": "fangbuilt-plate",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -24,6 +24,9 @@
     "plugins": [
       "prettier-plugin-tailwindcss"
     ]
+  },
+  "bin": {
+    "create-fangbuilt-plate": "cli.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",
