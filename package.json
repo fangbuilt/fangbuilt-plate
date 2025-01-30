@@ -1,7 +1,7 @@
 {
   "name": "fangbuilt-plate",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -26,7 +26,7 @@
     ]
   },
   "bin": {
-    "create-fangbuilt-plate": "cli.ts"
+    "fangbuilt-plate": "cli.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",
